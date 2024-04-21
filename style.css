@@ -1,0 +1,26 @@
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: comic Sans MS;    
+                
+}
+caption{
+    font-size: 50px;
+}
+th{
+    font-family: comic Sans MS;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap:50px;
+}
