@@ -39,7 +39,13 @@ a{
     
 }
 
-button:hover{
+button.mes:hover{
     background-color: lightblue;
     cursor: pointer;
+}
+button.codigob{
+    font-family: comic Sans MS;
+    border: none;
+    color: inherit; 
+
 }
