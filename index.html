@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Contas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="js/script1.js" defer></script>
 </head>
 <body>
         <div class="logo"><img src="img/logoo.png" alt="logo loja"></div>
@@ -18,11 +19,11 @@
             </li>
         </ul>
 
-        <a href="#Agosto"><button>Agosto</button></a>
-        <a href="#Setembro"><button>Setembro</button></a>
-        <a href="#Outubro"><button>Outubro</button></a>
-        <a href="#Novembro"><button>Novembro</button></a>
-        <a href="#Dezembro"><button>Dezembro</button></a>
+        <a href="#Agosto"><button class="mes">Agosto</button></a>
+        <a href="#Setembro"><button class="mes">Setembro</button></a>
+        <a href="#Outubro"><button class="mes">Outubro</button></a>
+        <a href="#Novembro"><button class="mes">Novembro</button></a>
+        <a href="#Dezembro"><button class="mes">Dezembro</button></a>
 
         <table border="2">
         <caption> MAIO 2024 </caption>
@@ -451,8 +452,8 @@
        
     </tr>
     <tr>
-        <td style="background-color:red;">7<br>BRW<br>504,70<br>Leo&Leo<br>765,43</td>
-        <td>8</td>
+        <td style="background-color: #ff633d;"><button class="codigob" onclick="codigoLeo('42297137080002200174700007899925398620000076543')">7<br>Leo&Leo<br>765,43</button></td>
+        <td style="background-color: #ff633d;"><button class="codigob" onclick="codigoBRW('23790926002000000873892006259805998620000050470')">8<br>BRW<br>504,70</button></td>
         <td>9</td>
         <td>10</td>
         <td>11</td>
@@ -461,7 +462,7 @@
         
     </tr>
     <tr>
-        <td style="background-color: #ff633d;">14<br>KAZ<br>570,52<br></td>
+        <td style="background-color: #ff633d;"><button class="codigob" onclick="codigoKaz('23790115012004161352002001587605198690000057052')">14<br>KAZ<br>570,52<br></button></td>
         <td>15</td>
         <td>16</td>
         <td>17</td>
@@ -474,7 +475,7 @@
         <td>22</td>
         <td>23</td>
         <td>24</td>
-        <td style="background-color: #ff633d;">25<br>Fantoni<br>779,65</td>
+        <td style="background-color: #ff633d;"><button class="codigob" onclick="codigoFan('756913069801312599820032405000011898800000077965')">25<br>Fantoni<br>779,65</button></td>
         <td>26</td>
         <td>27</td> 
     </tr>
@@ -537,9 +538,9 @@
         
     </tr>
     <tr>
-        <td style="background-color: #ff633d;">11<br>KAZ<br>570,52</td>
+        <td>11</td>
         <td>12</td>
-        <td>13</td>
+        <td style="background-color: #ff633d;">13<br>KAZ<br>570,52</td>
         <td>14</td>
         <td>15</td>
         <td>16</td>
