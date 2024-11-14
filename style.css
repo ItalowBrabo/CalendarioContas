@@ -24,28 +24,24 @@ ul{
     list-style: none;
     gap:50px;
 }
-
 button{
     width: 100px;
     height: 30px;
     background-color: transparent;
     border-radius: 10px;
     color: blue;
+    cursor: pointer;
 }
-
 a{
     text-decoration: none;
-    font-family: comic Sans MS;
-    
-}
-
-button.mes:hover{
-    background-color: lightblue;
-    cursor: pointer;
+    font-family: comic Sans MS;  
 }
 button.codigob{
     font-family: comic Sans MS;
     border: none;
     color: inherit; 
-
+}
+table{
+    width: 39%; 
+    height: 80%;
 }
