@@ -61,10 +61,10 @@ botoesAnos.forEach(b=>{
 
         let mes = document.querySelector(b.meses)
  
-        if(mes.style.display === 'block'){
+        if(mes.style.display === 'flex'){
             mes.style.display = 'none';
         } else {
-            mes.style.display = 'block';
+            mes.style.display = 'flex';
         }
 
     });
@@ -75,12 +75,17 @@ botoesMeses.forEach (b=>{
 
     document.querySelector(b.mes).addEventListener('click', function() {
 
+
         let calendario = document.querySelector(b.calendario)
         
         if(calendario.style.display === 'block'){
             calendario.style.display = 'none';
-        }
-        else {
+        } else {
+
+            botoesMeses.forEach(m=>{
+                document.querySelector(m.calendario).style.display = 'none'
+            })
+
             calendario.style.display = 'block';
         }
 
