@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin:10px
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;   
+    margin: auto;      
+}
+th{
+    max-width: 100px;
+    margin: auto;
+}
+table{
+    border-radius: 10px;
+    max-width: 735px;
+    min-width: 320px;
+}
+.codigob{
+    font-family: comic Sans MS;
+    border: none;
+    color: inherit; 
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#maio24, #jun24, #Jul24, #Ago24, #Set24, #Out24, #Nov24, #Dez24, #ano24 {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;    
+}
+
+.meses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.quadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
